@@ -1,0 +1,49 @@
+body{
+    background: rgb(193, 192, 192);
+    margin: 0;
+}
+header{
+    background: white;
+    padding: 5px;
+}
+header h1{
+    margin: 0px;
+}
+.contenido{
+    width: 600px;
+    margin: auto;
+}
+.publicacion{
+    background: white;
+    margin-top: 60px;
+}
+/* ------- Cabecera Foto ------*/
+.head-publi{
+    display: flex;
+}
+.head-publi h2,
+.head-publi p{
+    padding: 5px;
+    margin: 0;
+}
+.head-publi h2{
+    width: 80%;
+    
+}
+.head-publi p{
+    width: 20%;
+    padding-top: 20px;
+    text-align: right;
+    color: gray;
+}
+
+/*------ Foto -------*/
+.publicacion div img{
+    width: 100%;   
+}
+
+/*------ Pie Foto --------*/
+.foot-publi p{
+    padding: 10px;
+    margin-top: 0;
+}
