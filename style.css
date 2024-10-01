@@ -1,49 +1,71 @@
+/*div{border: solid, red}*/
+
 body{
-    background: rgb(193, 192, 192);
+    background: rgb(192, 192, 192);
     margin: 0;
 }
+
 header{
     background: white;
-    padding: 5px;
 }
-header h1{
-    margin: 0px;
-}
+
 .contenido{
     width: 600px;
     margin: auto;
 }
+
 .publicacion{
     background: white;
-    margin-top: 60px;
+    margin-top: 10%;
+    
 }
+
 /* ------- Cabecera Foto ------*/
-.head-publi{
+.headPubli{
     display: flex;
 }
-.head-publi h2,
-.head-publi p{
+
+.headPubli h2,
+.headPubli p{
     padding: 5px;
     margin: 0;
 }
-.head-publi h2{
+
+.headPubli h2{
     width: 80%;
     
 }
-.head-publi p{
+
+.headPubli p{
     width: 20%;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: right;
     color: gray;
 }
 
 /*------ Foto -------*/
-.publicacion div img{
-    width: 100%;   
+.bodyPubli {
+    position: relative;
+  }
+
+.foto{
+    width: 100%;
 }
 
+/*------ Like -------*/
+
+.heart {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%; /* Ajusta el tamaño del corazón según tu imagen */
+    height: 60%; /* Ajusta el tamaño del corazón según tu imagen */
+  }
+
 /*------ Pie Foto --------*/
-.foot-publi p{
+.footPubli p{
     padding: 10px;
     margin-top: 0;
 }
